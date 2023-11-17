@@ -49,7 +49,6 @@ namespace MI_API_REST.Controllers
         /// Método para buscar cliente en específico.
         /// </summary>
         /// <param name="codigo"></param>
-        /// <returns></returns>
         [Authorize]
         [HttpGet("BuscarCliente/{codigo}")]
         public ActionResult BuscarCliente(string codigo)
